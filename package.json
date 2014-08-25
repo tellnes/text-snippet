@@ -1,0 +1,31 @@
+{
+  "name": "text-snippet",
+  "version": "0.0.0",
+  "description": "Create a snippet form a longer text",
+  "main": "index.js",
+  "dependencies": {
+    "strip": "0.0.7",
+    "node-summary": "~1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/lipsum.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tellnes/text-snippet.git"
+  },
+  "keywords": [],
+  "author": "Christian Tellnes <christian@tellnes.no> (http://christian.tellnes.com)",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/tellnes/text-snippet/issues"
+  },
+  "homepage": "https://github.com/tellnes/text-snippet",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
