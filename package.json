@@ -7,9 +7,11 @@
     "strip": "0.0.7",
     "node-summary": "~1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tap": "^0.4.13"
+  },
   "scripts": {
-    "test": "node test/lipsum.js"
+    "test": "tap test"
   },
   "repository": {
     "type": "git",

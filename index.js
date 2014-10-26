@@ -9,7 +9,7 @@ module.exports = function (str) {
     // Yes, this is synchronous
     summary.summarize('', str, function (err, s) {
       if (err) throw err
-      str = s
+      str = s || str.slice(0, 500)
     })
   } catch (e) {
     str = str.slice(0, 500)
